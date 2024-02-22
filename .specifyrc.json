@@ -15,7 +15,7 @@
           }
         },
         {
-          "name": "to-swift",
+          "name": "to-swift.",
           "output": {
             "type": "file",
             "filePath": "ios/tokens.swift"
