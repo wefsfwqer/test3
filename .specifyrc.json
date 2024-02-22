@@ -8,10 +8,24 @@
       "name": "SDTF",
       "parsers": [
         {
-          "name": "to-sdtf",
+          "name": "to-tailwind",
           "output": {
             "type": "file",
-            "filePath": "output/tokens.json"
+            "filePath": "web/theme.js"
+          }
+        },
+        {
+          "name": "to-swift",
+          "output": {
+            "type": "file",
+            "filePath": "ios/tokens.swift"
+          }
+        },
+        {
+          "name": "to-kotlin",
+          "output": {
+            "type": "file",
+            "filePath": "android/tokens.kt"
           }
         }
       ]
